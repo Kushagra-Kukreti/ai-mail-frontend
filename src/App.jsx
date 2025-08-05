@@ -9,7 +9,7 @@ export default function App() {
   const handleGenerate = async () => {
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:5000/api/generate-email", {
+      const res = await fetch("https://ai-mailer-2m5m.onrender.com/api/generate-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ recipients, prompt }),
@@ -25,7 +25,7 @@ export default function App() {
 
   const handleSend = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/send-email", {
+      const res = await fetch("https://ai-mailer-2m5m.onrender.com/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ recipients, emailContent: generatedEmail }),
