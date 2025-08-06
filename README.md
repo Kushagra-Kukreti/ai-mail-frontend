@@ -1,4 +1,12 @@
-1.Gave problem statement to chatgpt to generate the frontend.
-2.Changed the endpoints to intergate with backend as per my coding practice.
-3.deployed changes on vercel and re-deployed after changing the deployed backend links.
+## 🚀 Project Steps
+
+### 1️⃣ Frontend Generation
+Used **ChatGPT** to create the initial frontend based on the given problem statement.
+
+### 2️⃣ API Integration
+Updated **API endpoints** to align with my backend implementation and coding practices.
+
+### 3️⃣ Deployment
+- Deployed the application on **Vercel**.  
+- Re-deployed after updating **backend deployment URLs**.
 
